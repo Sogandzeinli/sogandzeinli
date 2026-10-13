@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WOSHE | هنر گل‌ها</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: Tahoma, Arial, sans-serif;
+      background: #f8f5ef;
+      color: #263b30;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 8%;
+      border-bottom: 1px solid #e6e0d6;
+    }
+    .logo {
+      direction: ltr;
+      font-family: Georgia, serif;
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 5px;
+    }
+    nav a {
+      color: #263b30;
+      text-decoration: none;
+      margin-right: 20px;
+      font-size: 14px;
+    }
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero p {
+      color: #8b7964;
+      letter-spacing: 2px;
+    }
+    h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(48px, 10vw, 100px);
+      direction: ltr;
+      margin: 15px 0;
+      letter-spacing: 8px;
+    }
+    .description {
+      max-width: 420px;
+      line-height: 2.2;
+      color: #6e756d;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 35px;
+      background: #263b30;
+      color: white;
+      text-decoration: none;
+      border-radius: 3px;
+    }
+    .flowers {
+      padding: 55px 8%;
+      background: #eee8dd;
+      text-align: center;
+    }
+    .flowers h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    .flowers p {
+      line-height: 2;
+    }
+    footer {
+      padding: 30px 15px;
+      text-align: center;
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">WOSHE</div>
+<nav>
+  <a href="#home">خانه</a>
+  <a href="#flowers">دسته‌گل‌ها</a>
+  <a href="#contact">ارتباط</a>
+</nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <p>FLOWERS · ART · EMOTION</p>
+  <h1>WOSHE</h1>
+  <div class="description">
+    بعضی احساسات را نمی‌شود با کلمات گفت؛
+    <br>
+    گاهی یک دسته‌گل کافی است.
+  </div>
+  <a class="button" href="#flowers">کشف دنیای گل‌ها</a>
+</section>
+<section class="flowers" id="flowers">
+  <h2>گل‌هایی برای لحظه‌های خاص</h2>
+  <p>
+    از یک شاخه گل تا یک دسته‌گل خاص،
+    <br>
+    برای ساختن خاطره‌هایی که می‌مانند.
+  </p>
+</section>
+  </main>
+  <footer id="contact">
+    WOSHE — Made with love
+  </footer>
+</body>
+</html>
